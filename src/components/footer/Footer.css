@@ -1,9 +1,13 @@
-.rodape {
-    width: auto;
-    text-align: center;
-    padding: 3px;
-}
+
 .fim{
     font-size: 15px;
     color: rgb(0, 0, 0);
 }
+.rodape {
+    margin-top: 4%;
+    width: auto;
+    text-align: center;
+    background: linear-gradient(hsl(108, 48%, 74%), transparent);
+    padding:0.7%;
+}
+

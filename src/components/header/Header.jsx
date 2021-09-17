@@ -12,7 +12,6 @@ export default function Header() {
             <div className="logo">
                <img src={Logo} alt="logo do site"></img>
                <h1> Loja de Moda Panace IA</h1>
-
             </div>
          </div>
       </>
