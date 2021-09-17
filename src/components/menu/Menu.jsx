@@ -6,6 +6,7 @@ class Menu extends Component {
     render() {
         return(
             <nav className="menu">
+                <div className="menu-icon"></div>
                 <ul className="menu-itens">
                     {MenuItems.map((item, index) =>{
                         return (
