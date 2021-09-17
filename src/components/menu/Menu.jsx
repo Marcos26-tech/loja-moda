@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Menu.css'
 import Sobre from '../sobre/Sobre'
 import Home from '../home/Home'
 import ModaMasculina from '../modamasculina/ModaMasculina'
@@ -14,7 +15,7 @@ export default function Header() {
 
     return (
         <>
-            <nav className="">
+            <nav className="menu">
                 <ul>
                     <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
                     <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina/>)}>Moda Masculina</a></li>
