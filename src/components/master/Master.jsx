@@ -4,18 +4,17 @@ import Home from '../home/Home'
 import ModaMasculina from '../modamasculina/ModaMasculina'
 import ModaFeminina from '../modafeminina/ModaFeminina'
 import ModaInfantil from '../modainfantil/ModaInfantil'
-import Header from './components/header/Header';
+import Header from '../header/Header';
 
 
 export default () => {
 
 
-  const navegador = navigator.userAgent
+
   
   return(
     <div className="container">
-          <Header />
-          <p>NAVEGADOR : {navegador}</p>
+       <Header/>
       </div>
   );
 }
