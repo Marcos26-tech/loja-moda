@@ -2,26 +2,26 @@ export const MenuItems =[
     {
         title: 'Home',
         url:'Home.jsx',
-        cName: 'menu',
+        cName: 'menu, select',
      },
      {
          title: 'Moda Masculina',
          url:'ModaMasculina.jsx',
-         cName: 'menu, selecionado',
+         cName: 'menu,',
       },
       {
          title: 'Moda Feminina',
          url:'ModaFeminina.jsx',
-         cName: 'menu',
+         cName: 'menu,',
       },
       {
          title: 'Moda Infatil',
          url:'ModaInfantil.jsx',
-         cName: 'menu',
+         cName: 'menu,',
       },
       {
          title: 'Sobre',
          url:'Sobre.jsx',
-         cName: 'menu',
+         cName: 'menu,',
       }
 ]
