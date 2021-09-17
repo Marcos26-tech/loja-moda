@@ -9,7 +9,7 @@
     padding: 1%;
     border-radius: 20px;
     width: 50%;
-    background: linear-gradient(15deg, #048519, transparent);
+    background: linear-gradient(15deg, rgb(4, 133, 25), transparent);
     margin:3px;
     font-size: 15px;
     color: #fff;
@@ -21,7 +21,7 @@
 .tamanho {
     font-size: 30px;
     font-weight: bold;
-    color: #0c8b01;
+    color: rgb(12, 139, 1);
     display: flex;
     text-align:center;
     justify-content: center;
@@ -34,7 +34,7 @@ img {
 .box2 {
     display: flex;
     margin: 1%;
-    color: #0c8b01;
+    color: rgb(12, 137, 1);
     border: 1px solid;
     border-radius: 25px;
     padding: 2%;
