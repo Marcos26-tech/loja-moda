@@ -6,7 +6,7 @@
   
 .menu ul {
     text-align: center;
-    background:linear-gradient(90deg, transparent -20%, rgb(188, 226, 186) , rgb(255, 255, 255)49%, rgb(188, 226, 186) 86%,transparent 120% );
+    background:linear-gradient(90deg, transparent -20%, rgb(188, 226, 186) , rgb(138, 226, 133)49%, rgb(188, 226, 186) 86%,transparent 120% );
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
   
