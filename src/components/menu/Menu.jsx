@@ -14,18 +14,16 @@ export default function Header() {
 
     return (
         <>
-            <header>
-                <nav className="">
-                    <ul>
-                        <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
-                        <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina/>)}>Moda Masculina</a></li>
-                        <li><a href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</a></li>
-                        <li><a href="#modainfantil" onClick={() => setComponente(<ModaInfantil/>)}>Moda Infantil</a></li>
-                        <li><a href="#sobre" onClick={() => setComponente(<Sobre/>)}>Sobre</a></li>
-                    </ul>
-                </nav>
-        
-            </header>
+            <nav className="">
+                <ul>
+                    <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
+                    <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina/>)}>Moda Masculina</a></li>
+                    <li><a href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</a></li>
+                    <li><a href="#modainfantil" onClick={() => setComponente(<ModaInfantil/>)}>Moda Infantil</a></li>
+                    <li><a href="#sobre" onClick={() => setComponente(<Sobre/>)}>Sobre</a></li>
+                </ul>
+            </nav>
+
             <div>
                 {componente}
             </div>
