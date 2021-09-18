@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../img/grupo/logo.png'
 import Menu from '../menu/Menu'
 import './Header.css'
-
+import styled from 'styled-components';
 
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
                   <h1> Loja de Moda Panace IA</h1>
                </div>
             </div>
-            <Menu />
+            <Menu/>
          </header>  
       </>
    )
