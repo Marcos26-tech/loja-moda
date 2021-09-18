@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import CarrocelComponent from '../CarrocelComponet';
 
 const StyledContainer = styled.div`
-
+  position: relative;
 `;
 
 function Home (){
