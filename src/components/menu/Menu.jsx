@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
-import './Menu.css'
-import Sobre from '../sobre/Sobre'
-import Home from '../home/Home'
-import ModaMasculina from '../modamasculina/ModaMasculina'
-import ModaFeminina from '../modafeminina/ModaFeminina'
-import ModaInfantil from '../modainfantil/ModaInfantil'
+import React, { useState } from 'react';
+import './Menu.css';
+import Sobre from '../sobre/Sobre';
+import Home from '../home/Home';
+import ModaMasculina from '../modamasculina/ModaMasculina';
+import ModaFeminina from '../modafeminina/ModaFeminina';
+import ModaInfantil from '../modainfantil/ModaInfantil';
 
 
 
-export default function Header() {
+export default function Menu () {
 
     const [componente, setComponente] = useState(<Home />)
 
@@ -24,10 +24,9 @@ export default function Header() {
                     <li><a href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</a></li>
                 </ul>
             </nav>
-
-            <div>
+            <section>
                 {componente}
-            </div>
+            </section>
         </>
     )
 }
