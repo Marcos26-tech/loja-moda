@@ -16,17 +16,15 @@ import carrocel13 from '../../img/img_home/carrocel13.jpg';
 import carrocel14 from '../../img/img_home/carrocel14.jpg';
 
 
-import {StyledCarrocelContainer} from './style_home';
-import {StyledImageContainer} from './style_home';
-import {StyledArrowContainer} from './style_home';
-import {StyledImage} from './style_home';
 
+
+import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './style_home';
 
 const imagens =[carrocel13,carrocel,carrocel14,carrocel2,carrocel3,carrocel4,
   carrocel5,carrocel6,carrocel8,carrocel9,carrocel10,carrocel11,carrocel12,
 ];
 
-const CarrocelComponent = () => {
+const Carrocel = () => {
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
 
   const nextImage = () =>{
@@ -56,4 +54,4 @@ const CarrocelComponent = () => {
   );
 }
 
-export default CarrocelComponent
+export default Carrocel;

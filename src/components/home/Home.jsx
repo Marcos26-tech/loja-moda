@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import CarrocelComponent from './CarrocelComponet';
+import Carrocel from './Carrocel';
 
-import {Title} from './style_home';
-import { StyledContainer } from './style_home';
-
+import {Title, StyledContainer } from './style_home';
 
 class Home extends Component {
   render() {
@@ -15,7 +13,7 @@ class Home extends Component {
                se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</Title>
           </section>
           <StyledContainer>
-              <CarrocelComponent />
+              <Carrocel />
           </StyledContainer>
         </>
       );
