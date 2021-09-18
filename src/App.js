@@ -2,9 +2,8 @@ import React from 'react'
 import './App.css'
 import Footer from './components/footer/Footer'
 import Master from './components/master/Master'
-import styled from 'styled-components';
 
-function App() {
+export default () => {
     return (
         <>
             <Master/>
@@ -12,4 +11,4 @@ function App() {
         </>
     );
 }
-export default App;
+

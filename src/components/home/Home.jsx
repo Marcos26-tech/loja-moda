@@ -1,22 +1,26 @@
-import React from 'react';
-import styled from 'styled-components';
-import CarrocelComponent from '../CarrocelComponet';
+import React, {Component} from 'react';
+import CarrocelComponent from './CarrocelComponet';
 
-const StyledContainer = styled.div`
-  position: relative;
-`;
+import {Title} from './style_home';
+import { StyledContainer } from './style_home';
 
-function Home (){
 
-  return(
-    <>
-    <StyledContainer>
-        <CarrocelComponent/>
-    </StyledContainer>
-    </>
-  );
+class Home extends Component {
+  render() {
+      return(
+        <>
+          <section>
+            <Title>Sejam Bemvidos a Loja Moda Panace I.A</Title>
+            <Title>“As pessoas mais jovens costumam abusar da criatividade e,
+               se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</Title>
+          </section>
+          <StyledContainer>
+              <CarrocelComponent />
+          </StyledContainer>
+        </>
+      );
+  }
 }
-
 export default Home;
 
 
