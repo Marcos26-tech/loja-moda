@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 //inicio style da pagina home//
-export const Section1 = styled.section`
+export const Section = styled.section`
   margin: 20px;
   padding: 1px;
   text-align:center;
@@ -20,7 +20,7 @@ export const Title = styled.h1 `
   justify-content: center;
 `;
 
-export const StyledContainer = styled.div`
+export const StyledContainer = styled.section`
   position: relative;
   display: flex;
 `;
@@ -52,7 +52,7 @@ export const StyledArrowContainer = styled.div`
   align-items:center;
   border-radius:50%;
   cursor: pointer;
-  :hover{
+  &:hover{
     background-color:#d9d9d9;
   }
 `;

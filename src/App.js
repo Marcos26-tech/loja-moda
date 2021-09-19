@@ -1,13 +1,13 @@
-import React from 'react'
-import './App.css'
-import Footer from './components/footer/Footer'
-import Master from './components/master/Master'
+import React from 'react';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+
 
 export default () => {
     return (
         <>
-            <Master/>
-            <Footer/>
+            <Header/>
+            <Footer />
         </>
     );
 }

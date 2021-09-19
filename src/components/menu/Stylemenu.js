@@ -14,7 +14,7 @@ export const Lis = styled.a`
     color: rgba(0, 0, 0, 0.959);
     text-decoration: none;
     display: block;
-    :hover { 
+    &:hover { 
         box-shadow: 0 0 10px rgb(23 39 15), inset 0 0 1px rgb(255 255 255 / 60%);
         background: rgba(160, 243, 160, 0.733);
         color: rgba(3, 51, 7, 0.938);
