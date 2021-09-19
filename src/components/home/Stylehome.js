@@ -2,15 +2,19 @@ import styled from "styled-components";
 
 
 //inicio style da pagina home//
-export const Title = styled.h1`
-  margin: 1%, auto;
+export const Section1 = styled.section`
+  margin: 10px;
+  padding: 10px;
+  text-align:center;
+  justify-content: center;
+`;
+export const Title = styled.h1 ` 
   font-size: 30px;
   font-weight: bold;
-  color: rgb(12, 139, 1);
+  color: rgb(12, 139, 1); 
   display: flex;
   text-align:center;
   justify-content: center;
-
 `;
 
 export const StyledContainer = styled.div`
