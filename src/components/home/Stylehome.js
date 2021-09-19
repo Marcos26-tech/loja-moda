@@ -22,6 +22,7 @@ export const Title = styled.h1 `
 
 export const StyledContainer = styled.div`
   position: relative;
+  display: flex;
 `;
 
 
@@ -29,7 +30,7 @@ export const StyledContainer = styled.div`
 export const StyledCarrocelContainer = styled.div`
   height: 40rem;
   width: 50rem;
-  padding-left: 5rem;
+  padding-left: 4rem;
   margin: 20px auto;
   display: flex;
   justify-content: center;
@@ -39,7 +40,7 @@ export const StyledCarrocelContainer = styled.div`
 export const StyledImageContainer = styled.div`
   width: 100%;
   height: 100%; 
-  border-radius:5%;
+  
 `;
 
 export const StyledArrowContainer = styled.div`
@@ -59,4 +60,6 @@ export const StyledArrowContainer = styled.div`
 export const StyledImage = styled.img`
   width: 100%;
   height:100%; 
+  border-radius:10%;
+  
 `;

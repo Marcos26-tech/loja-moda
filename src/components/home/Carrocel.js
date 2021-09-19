@@ -15,10 +15,9 @@ import carrocel12 from '../../img/img_home/carrocel12.jpg';
 import carrocel13 from '../../img/img_home/carrocel13.jpg';
 import carrocel14 from '../../img/img_home/carrocel14.jpg';
 
-
-
-
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './Stylehome';
+
+
 
 const imagens =[carrocel13,carrocel,carrocel14,carrocel2,carrocel3,carrocel4,
   carrocel5,carrocel6,carrocel8,carrocel9,carrocel10,carrocel11,carrocel12,

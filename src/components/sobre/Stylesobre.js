@@ -8,12 +8,13 @@ export const StyleContainer = styled.div`
 
 export const Box = styled.div`
     display: flex;
-    margin: 1%;
+    margin: 50px;
     color: rgb(12, 137, 1);
     border: 1px solid;
     border-radius: 25px;
     padding: 2%;
     div {
+        position: relative;
         border: 2px solid rgb(0, 0, 0);
         padding: 1%;
         border-radius: 20px;
