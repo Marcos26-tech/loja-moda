@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
-
 //inicio style da pagina home//
 export const Section = styled.section`
   margin: 20px;
   padding: 1px;
   text-align:center;
   justify-content: center;
-  
 `;
 export const Title = styled.h1 ` 
   margin: 2px;
@@ -39,8 +37,7 @@ export const StyledCarrocelContainer = styled.div`
 
 export const StyledImageContainer = styled.div`
   width: 100%;
-  height: 100%; 
-  
+  height: 100%;  
 `;
 
 export const StyledArrowContainer = styled.div`
