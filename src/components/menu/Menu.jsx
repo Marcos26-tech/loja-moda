@@ -5,7 +5,8 @@ import ModaMasculina from '../modamasculina/ModaMasculina';
 import ModaFeminina from '../modafeminina/ModaFeminina';
 import ModaInfantil from '../modainfantil/ModaInfantil';
 
-import {StyledContainer, Nav, Lista, Navbar, Lis} from './Stylemenu';
+import {StyledContainer, Nav, Lista} from './Stylemenu';
+
 
 
 
@@ -18,13 +19,13 @@ function Menu() {
             <StyledContainer>
                 <div>
                     <Nav>
-                        <Navbar>
-                            <Lista><Lis href="#home" onClick={() => setComponente(<Home />)}>Home</Lis></Lista>
-                            <Lista><Lis href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</Lis></Lista>
-                            <Lista><Lis href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</Lis></Lista>
-                            <Lista><Lis href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</Lis></Lista>
-                            <Lista><Lis href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</Lis></Lista>
-                        </Navbar>
+                        <ul>
+                            <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
+                            <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</a></li>
+                            <li><a href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</a></li>
+                            <li><a href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</a></li>
+                            <li><a href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</a></li>
+                        </ul>
                     </Nav>
                 </div>
             </StyledContainer>
