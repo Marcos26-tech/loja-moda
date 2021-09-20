@@ -14,18 +14,19 @@ function Menu() {
 
     return (
         <>
-            <header>
-                <Nav>
-                    <Navbar>
-                        <Lista><Lis href="#home" onClick={() => setComponente(<Home />)}>Home</Lis></Lista>
-                        <Lista><Lis href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</Lis></Lista>
-                        <Lista><Lis href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</Lis></Lista>
-                        <Lista><Lis href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</Lis></Lista>
-                        <Lista><Lis href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</Lis></Lista>
-                    </Navbar>
-                </Nav>
-
-            </header>
+            <StyledContainer>
+                <div>
+                    <Nav>
+                        <Navbar>
+                            <Lista><Lis href="#home" onClick={() => setComponente(<Home />)}>Home</Lis></Lista>
+                            <Lista><Lis href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</Lis></Lista>
+                            <Lista><Lis href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</Lis></Lista>
+                            <Lista><Lis href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</Lis></Lista>
+                            <Lista><Lis href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</Lis></Lista>
+                        </Navbar>
+                    </Nav>
+                </div>
+            </StyledContainer>
             <section>
                 {componente}
             </section>

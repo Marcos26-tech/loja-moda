@@ -14,6 +14,7 @@ export const Lis = styled.a`
     color: rgba(0, 0, 0, 0.959);
     text-decoration: none;
     display: block;
+    transition: all 0.2s ease-in;
     &:hover { 
         box-shadow: 0 0 10px rgb(23 39 15), inset 0 0 1px rgb(255 255 255 / 60%);
         background: rgba(160, 243, 160, 0.733);
@@ -31,6 +32,18 @@ export const Navbar = styled.ul`
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 
 `;
+
+export const StyledContainer = styled.header`
+
+    @media (max-width: 768px){
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+`;
+
+
+
 /*select {
     box-shadow: 0 0 10px rgb(23 39 15), inset 0 0 1px rgb(255 255 255 / 60%);
     background: rgba(160, 243, 160, 0.733);
