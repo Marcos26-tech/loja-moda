@@ -23,7 +23,6 @@ export const StyledContainer = styled.section`
   display: flex;
 `;
 
-
 //inicio style da pagina carrocel//
 export const StyledCarrocelContainer = styled.div`
   height: 40rem;

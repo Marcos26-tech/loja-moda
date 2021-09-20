@@ -7,9 +7,6 @@ import ModaInfantil from '../modainfantil/ModaInfantil';
 
 import {Nav} from './Stylemenu';
 
-
-
-
 function Menu() {
 
     const [componente, setComponente] = useState(<Home/>)

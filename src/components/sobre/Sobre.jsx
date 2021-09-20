@@ -6,7 +6,7 @@ import akemi from '../../img/grupo/Akemi.jpg';
 import luan from '../../img/grupo/Luan.jpg';
 
 
-import {StyleContainer, Box, Paragrafo } from './Stylesobre'
+import {StyleContainer, Box, Paragrafo} from './Stylesobre'
 
 export default () => {
 

@@ -12,8 +12,6 @@ const StyledFooter= styled.footer`
    }
 `;
 
-
-
 export default () => {
 
    return(
