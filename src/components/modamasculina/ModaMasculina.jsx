@@ -31,6 +31,52 @@ class ModaMasculina extends Component {
               </Section>
           </StyledContainer>
 
+          <StyledContainer>
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+            
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          </StyledContainer>
+
+          <StyledContainer>
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+            
+              <Section>
+                <CarrosselMasculino />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          </StyledContainer>
+
         </>
       );
   }
