@@ -1,25 +1,83 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, {Component} from 'react';
+import CarrocelFeminina from './CarrocelFeminina';
 
-import Capa from '../../img/imgfeminina/capafeminina.jpg';
-import Blusa from '../../img/imgfeminina/blusa.jpg';
-import Cachecol from '../../img/imgfeminina/cachecol.jpg';
-import Calca from '../../img/imgfeminina/calca.jpg';
-import Jaqueta from '../../img/imgfeminina/jaqueta.jpg';
-import Short from '../../img/imgfeminina/short.jpg';
-import Vestido1 from '../../img/imgfeminina/vestido1.jpg';
-import Vestido2 from '../../img/imgfeminina/vestido2.jpg';
-import Vestido3 from '../../img/imgfeminina/vestido3.jpg';
-import Vestido4 from '../../img/imgfeminina/vestido4.jpg';
-import Vestido5 from '../../img/imgfeminina/vestido5.jpg';
+import {Title, StyledContainer, Section} from './StyleFeminana';
 
 
+class ModaFeminina extends Component {
+  render() {
+      return(
+        <>
+          <StyledContainer>
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+            
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          </StyledContainer>
 
-export default () => {
+          <StyledContainer>
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+        
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>   
+          </StyledContainer>
 
-  return(
-    <>
-  
-    </>
-  );
+          <StyledContainer>
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+            
+              <Section>
+                <CarrocelFeminina />
+                  <Title> Calça Femina listrada</Title>
+                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+              </Section>
+          </StyledContainer>
+        </>
+      );
+  }
 }
+export default ModaFeminina;
