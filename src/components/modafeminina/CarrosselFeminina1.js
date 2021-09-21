@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
-import Blusa from '../../img/imgfeminina/blusa.jpg';
-import Cachecol from '../../img/imgfeminina/cachecol.jpg';
-import Calca from '../../img/imgfeminina/calca.jpg';
+import Item from '../../img/imgfeminina/vest2.jpg';
+import Item1 from '../../img/imgfeminina/vest1.jpg';
+import Item2 from '../../img/imgfeminina/vest.jpg';
 
 
 
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyleFeminana';
 
-const imagens = [Blusa, Cachecol, Calca ]
+const imagens = [Item, Item1, Item2 ]
 
 
 const CarrosselFeminina1  = () => {

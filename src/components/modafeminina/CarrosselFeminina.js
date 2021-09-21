@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
 import Item from '../../img/imgfeminina/chapeu.jpg';
-import Item1 from '../../img/imgfeminina/chapeu.jpg';
-import Item2 from '../../img/imgfeminina/chapeu.jpg';
+import Item1 from '../../img/imgfeminina/chapeu1.jpg';
+import Item2 from '../../img/imgfeminina/chapeu2.jpg';
 
 
 

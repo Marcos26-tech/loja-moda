@@ -20,69 +20,69 @@ class ModaFeminina extends Component {
           <StyledContainer>
               <Section>
                 <CarrosselFeminina />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Chapéu Cores Cinza, Vermelho e Preto </Title>
+                  <Title>Tamanho Unico</Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           
               <Section>
                 <CarrosselFeminina1 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title> Vestido Verão Estampados</Title>
+                  <Title>Tamanhos disponíveis P, M, G </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
             
               <Section>
                 <CarrosselFeminina2 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title> Vestido Liso Cores Azul, Preto e Branco</Title>
+                  <Title>Tamanhos disponíveis M, G</Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           </StyledContainer>
 
           <StyledContainer>
               <Section>
                 <CarrosselFeminina3 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Cropped manga longa Estampados</Title>
+                  <Title>Tamanhos disponíveis P, M </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           
               <Section>
                 <CarrosselFeminina4 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title> Calça Confort</Title>
+                  <Title>Tamanhos disponíveis 38, 40</Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
             
               <Section>
                 <CarrosselFeminina5 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Vestido Verão </Title>
+                  <Title>Tamanhos disponíveis P, M, G </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           </StyledContainer>
 
           <StyledContainer>
               <Section>
                 <CarrosselFeminina6 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title> Conjuntinho </Title>
+                  <Title>Tamanho disponíveis M </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           
               <Section>
                 <CarrosselFeminina7 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title> Vestido Longo Estampado</Title>
+                  <Title>Tamanhos disponíveis P, M </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
             
               <Section>
                 <CarrosselFeminina8 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Vestido Liso</Title>
+                  <Title>Tamanho disponíveis P </Title>
+                  <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           </StyledContainer>
         </>
