@@ -17,6 +17,7 @@ export const Title = styled.h1 `
 `;
 
 export const StyledContainer = styled.section`
+  padding: 10px;
   display: flex;
   justify-content:space-evenly;
   margin: 0;

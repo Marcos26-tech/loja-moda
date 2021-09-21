@@ -18,6 +18,7 @@ export const Title = styled.h1 `
 
 export const StyledContainer = styled.section`
   display: flex;
+  padding: 10px;
   justify-content:space-evenly;
   margin: 0;
   margin-bottom:10px;
