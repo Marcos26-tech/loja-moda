@@ -26,15 +26,15 @@ class ModaMasculina extends Component {
           
               <Section>
                 <CarrosselMasculino1 />
-                  <Title>Camisetas polos Listradas</Title>
-                  <Title>Tamanho P, M, G</Title>
+                  <Title>Sungas lisa</Title>
+                  <Title>Tamanhos disponivéis P, M, G</Title>
                   <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
               </Section>
             
               <Section>
                 <CarrosselMasculino2 />
                   <Title> Camisetas Estampadas</Title>
-                  <Title>Tamanho P, M </Title>
+                  <Title>Tamanhos disponivéis P, M </Title>
                   <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           </StyledContainer>

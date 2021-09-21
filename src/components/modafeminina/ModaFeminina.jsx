@@ -44,7 +44,7 @@ class ModaFeminina extends Component {
               <Section>
                 <CarrosselFeminina3 />
                   <Title>Cropped manga longa Estampados</Title>
-                  <Title>Tamanhos disponíveis P, M </Title>
+                  <Title>Tamanho disponível P </Title>
                   <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           
@@ -66,8 +66,8 @@ class ModaFeminina extends Component {
           <StyledContainer>
               <Section>
                 <CarrosselFeminina6 />
-                  <Title> Conjuntinho </Title>
-                  <Title>Tamanho disponíveis M </Title>
+                  <Title> BIquinis  </Title>
+                  <Title>Tamanhos disponíveis  P, M </Title>
                   <Title> Para comprar essa peça ligue (11) 995562134 </Title>
               </Section>
           

@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
-import Camiseta from '../../img/imgmasculina/camiseta1.jpg';
-import Camiseta1 from '../../img/imgmasculina/camiseta2.jpg';
-import Camiseta2 from '../../img/imgmasculina/camiseta3.jpg';
+import Item from '../../img/imgmasculina/sunga1.jpg';
+import Item1 from '../../img/imgmasculina/sunga.jpg';
+import Item2 from '../../img/imgmasculina/sunga2.jpg';
 
 
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledMasculino';
 
-const imagens = [Camiseta, Camiseta1, Camiseta2 ]
+const imagens = [Item, Item1, Item2]
 
 const CarrosselMasculino1  = () => {
 
