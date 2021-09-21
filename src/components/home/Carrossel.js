@@ -23,7 +23,7 @@ const imagens =[carrocel13,carrocel,carrocel14,carrocel2,carrocel3,carrocel4,
   carrocel5,carrocel6,carrocel8,carrocel9,carrocel10,carrocel11,carrocel12,
 ];
 
-const Carrocel = () => {
+const Carrossel = () => {
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
 
   const nextImage = () =>{
@@ -53,4 +53,4 @@ const Carrocel = () => {
   );
 }
 
-export default Carrocel;
+export default Carrossel;

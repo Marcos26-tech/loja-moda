@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Carrocel from './Carrocel';
+import Carrossel from './Carrossel';
 
 import {Title, StyledContainer, Section} from './Stylehome';
 
@@ -13,7 +13,7 @@ class Home extends Component {
                se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</Title>
           </Section>
           <StyledContainer>
-              <Carrocel />
+              <Carrossel />
           </StyledContainer>
         </>
       );

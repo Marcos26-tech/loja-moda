@@ -20,7 +20,7 @@ const imagens = [Blusa, Cachecol, Calca, Jaqueta, Short, Vestido1, Vestido2,
    Vestido3, Vestido4, Vestido5]
 
 
-const CarrocelFeminina  = () => {
+const CarrosselFeminina  = () => {
 
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
 
@@ -50,4 +50,4 @@ const CarrocelFeminina  = () => {
     </StyledCarrocelContainer>
   );
 }
-export default CarrocelFeminina ;
+export default CarrosselFeminina ;
