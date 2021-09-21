@@ -5,9 +5,10 @@ import Calca from '../../img/imgmasculina/calca.jpg';
 import Camiseta from '../../img/imgmasculina/camiseta.jpg';
 import Camiseta1 from '../../img/imgmasculina/camiseta1.jpg';
 
-import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledMasculina';
 
-const imagens = [Calca, Camiseta, Camiseta1]
+import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledMasculino';
+
+const imagens = [Calca, Camiseta, Camiseta1 ]
 
 const CarrosselMasculino  = () => {
 
