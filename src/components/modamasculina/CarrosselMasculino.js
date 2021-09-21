@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
-import Calca from '../../img/imgmasculina/calca.jpg';
-import Camiseta from '../../img/imgmasculina/camiseta.jpg';
-import Camiseta1 from '../../img/imgmasculina/camiseta1.jpg';
+import Calca from '../../img/imgmasculina/camiseta8.jpg';
+import Camiseta from '../../img/imgmasculina/camiseta5.jpg';
+import Camiseta1 from '../../img/imgmasculina/camiseta4.jpg';
 
 
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledMasculino';
