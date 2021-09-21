@@ -26,7 +26,7 @@ class ModaFeminina extends Component {
               </Section>
           
               <Section>
-                <CarrosselFeminina1/>
+                <CarrosselFeminina1 />
                   <Title> Calça Femina listrada</Title>
                   <Title>Tamanho P, M, G, GG</Title>
                   <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
