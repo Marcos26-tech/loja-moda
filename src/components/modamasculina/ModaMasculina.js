@@ -72,12 +72,14 @@ export function ModaMasculina() {
         <StyledNovo>
           <img src={Capa} alt="Capa da pagina"></img>
         </StyledNovo>
+        <h1> Escolha aqui peças de roupas Masculina que mais gostar e entre em contado</h1>
       </StyledImage>
       <StyledSection>  
         <div>
           <Img src={Calca} alt='calça masculina'></Img>
           <StyledSpam >
             <div className="calca">
+              <h3>Calça Masculina</h3>
               <button onClick={() => changeDisplay(1)}>PARA MAIS INFORMAÇOES SOBRE O ITEM CLIQUE AQUI</button>
             </div>
           </StyledSpam>
