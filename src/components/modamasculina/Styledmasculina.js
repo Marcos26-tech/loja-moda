@@ -17,6 +17,15 @@ export const StyledNovo = styled.div`
 `;
 
 export const StyledSection = styled.section`
+.camiseta {
+    display:block;
+    color: red;
+}
+.calca {
+    display:block;
+    color: blue;
+}
+
 
 `;
 
