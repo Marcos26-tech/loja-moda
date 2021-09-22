@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
-import Item from '../../img/imginfantil/toca.jpg';
-import Item1 from '../../img/imginfantil/toca1.jpg';
-import Item2 from '../../img/imginfantil/toca2.jpg';
+import Item from '../../img/imginfantil/conjuf.jpg';
+import Item1 from '../../img/imginfantil/conjuf1.jpg';
+import Item2 from '../../img/imginfantil/conjuf2.jpg';
 
 
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyleInfanil';

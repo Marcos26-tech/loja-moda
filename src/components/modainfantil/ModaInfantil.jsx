@@ -20,67 +20,67 @@ class ModaInfantil extends Component {
           <StyledContainer>
               <Section>
                 <CarrosselInfantil />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Tocas Infantil Unisex </Title>
+                  <Title>Tamanho disponível P</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           
               <Section>
                 <CarrosselInfantil1 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjuntos Bebe </Title>
+                  <Title>Tamanho disponível 01</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
             
               <Section>
                 <CarrosselInfantil2/>
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Body Bebe Estampado</Title>
+                  <Title>Tamanho disponível 01</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           </StyledContainer>
           <StyledContainer>
               <Section>
                 <CarrosselInfantil3 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjunto Feminino infantil</Title>
+                  <Title>Tamanhos disponíveis P, M, G</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           
               <Section>
                 <CarrosselInfantil4 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Cardgan Feminino</Title>
+                  <Title>Tamanhos disponíveis 07 e 10</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
             
               <Section>
                 <CarrosselInfantil5/>
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjunto Feminino infantil</Title>
+                  <Title>Tamanhos disponíveis 08, 10 e 12</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           </StyledContainer>
           <StyledContainer>
               <Section>
                 <CarrosselInfantil6 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjunto Masculino Infantil</Title>
+                  <Title>Tamanhos disponíveis 10, 12 e 14</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           
               <Section>
                 <CarrosselInfantil7 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjunto Masc cores Branco, Azul e Vermelho</Title>
+                  <Title>Tamanhos disponíveis P, M, G, GG</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
             
               <Section>
                 <CarrosselInfantil8 />
-                  <Title> Calça Femina listrada</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
-                  <Title> Para Comprar essa peça ligue (11) 995562134 </Title>
+                  <Title>Conjunto Femin cores Branco, Rosa e Vermelho</Title>
+                  <Title>Tamanhos disponíveis P, M, G</Title>
+                  <Title>Para Comprar essa peça ligue (11) 995562134</Title>
               </Section>
           </StyledContainer>
 
@@ -88,5 +88,4 @@ class ModaInfantil extends Component {
       );
   }
 }
-
 export default ModaInfantil ;
