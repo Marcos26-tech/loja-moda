@@ -26,20 +26,19 @@ const Stylednovo = styled.div`
    }
 `;
 
-export default () => {
+ const Header = () => {
 
    return (
       <> 
-         <section> 
-            <StyledHeader>
-               <Stylednovo>
-                  <img src={Logo} alt="logo do site"></img>
-                  <p> Loja de Moda Panace IA</p>
-               </Stylednovo>
-            </StyledHeader>
-            <Menu/>
-            
-         </section>  
+         <StyledHeader>
+            <Stylednovo>
+               <img src={Logo} alt="logo do site"></img>
+               <p> Loja de Moda Panace IA</p>
+            </Stylednovo>
+         </StyledHeader>
+
+         <Menu/>
       </>
    )
 }
+export default Header;

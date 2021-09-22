@@ -7,13 +7,13 @@ import ModaInfantil from '../modainfantil/ModaInfantil';
 
 import {Nav} from './Stylemenu';
 
-function Menu() {
+const Menu = () => {
 
     const [componente, setComponente] = useState(<Home/>)
 
     return (
         <>
-            <div>
+            <header>
                 <Nav>
                     <ul>
                         <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
@@ -23,12 +23,11 @@ function Menu() {
                         <li><a href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</a></li>
                     </ul>
                 </Nav>
-            </div>
+            </header>
             <section>
                 {componente}
             </section>
         </>
     )
 }
-
 export default Menu;

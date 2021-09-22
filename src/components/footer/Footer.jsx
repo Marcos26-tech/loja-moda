@@ -12,7 +12,7 @@ const StyledFooter= styled.footer`
    }
 `;
 
-export default () => {
+const Footer = () => {
 
    return(
       <>
@@ -20,4 +20,6 @@ export default () => {
             <p> Copyright &copy; Grupo Panace I.A 2021 </p>
          </StyledFooter>
       </>
-)}
+   )
+}
+export default Footer;
