@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 //inicio style da pagina home//
 export const Section = styled.section`
-  margin: 20px;
-  padding: 1px;
+  margin:1rem;
+  padding: 2rem;
   text-align:center;
   justify-content: center;
 `;
@@ -27,7 +27,9 @@ export const StyledContainer = styled.section`
 export const StyledCarrocelContainer = styled.div`
   height: 40rem;
   width: 50rem;
-  padding-left: 4rem;
+  padding:0;
+  padding-left:4rem;
+  padding-bottom:7rem;
   margin: 20px auto;
   display: flex;
   justify-content: center;
