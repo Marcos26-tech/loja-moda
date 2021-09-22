@@ -26,7 +26,7 @@ const Stylednovo = styled.div`
    }
 `;
 
-export default () => {
+const Header = () => {
 
    return (
       <> 
@@ -43,3 +43,4 @@ export default () => {
       </>
    )
 }
+export default Header;
