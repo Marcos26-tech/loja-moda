@@ -29,7 +29,7 @@ export const StyledCarrocelContainer = styled.div`
   width: 50rem;
   padding:0;
   padding-left:4rem;
-  padding-bottom:7rem;
+  padding-bottom:6.5rem;
   margin: 20px auto;
   display: flex;
   justify-content: center;
