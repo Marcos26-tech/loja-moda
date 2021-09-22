@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
 
-import Bebe from '../../img/imginfantil/bebechapeu.jpg';
-import Girl from '../../img/imginfantil/girl.jpg';
-import Roupa from '../../img/imginfantil/roupaverao.jpg';
+import Item from '../../img/imginfantil/toca.jpg';
+import Item1 from '../../img/imginfantil/toca1.jpg';
+import Item2 from '../../img/imginfantil/toca2.jpg';
 
 
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyleInfanil';
 
-const imagens = [Bebe, Girl, Roupa ]
-
+const imagens = [Item, Item1, Item2]
 const CarrosselInfantil1  = () => {
 
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
