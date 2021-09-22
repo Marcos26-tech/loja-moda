@@ -8,7 +8,7 @@ import luan from '../../img/grupo/Luan.jpg';
 
 import {StyleContainer, Box, Paragrafo} from './StyleSobre'
 
-const Sobre = () => {
+export default () => {
 
   return(
     <>
@@ -52,4 +52,3 @@ const Sobre = () => {
     </>  
   );
 }
-export default Sobre;
