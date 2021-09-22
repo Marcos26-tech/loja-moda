@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledFooter= styled.footer`
-   width: auto;
+   width:100%;
    text-align: center;
    background: linear-gradient(hsl(108, 48%, 74%), transparent);
    padding:0.2%;

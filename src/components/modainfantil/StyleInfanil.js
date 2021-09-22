@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Section = styled.section`
   margin: 20px;
   padding: 1px; 
+  
 `;
 export const Title = styled.h1 ` 
   margin: 2px;
@@ -14,14 +15,20 @@ export const Title = styled.h1 `
   display: flex;
   text-align:center;
   justify-content: center;
+  
 `;
 
 export const StyledContainer = styled.section`
-  padding: 10px;
   display: flex;
+  padding: 10px;
   justify-content:space-evenly;
   margin: 0;
   margin-bottom:10px;
+  @media(max-width:768px){
+    display:block;
+    align-items:center;
+    width:100%;
+  };
 `;
 
 //inicio style da pagina carrocelfeminina//
@@ -32,11 +39,22 @@ export const StyledCarrocelContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items:center;
+  @media(max-width:768px){
+    display:flexbox;
+    width:92%;
+    padding:10px;
+    margin:10px;
+  };
 `;
 
 export const StyledImageContainer = styled.div`
   width: 100%;
   height: 100%;  
+  @media(max-width:768px){
+    display:block;
+    align-items:center;
+    width:100%;
+  };
 `;
 
 export const StyledArrowContainer = styled.div`
@@ -55,5 +73,5 @@ export const StyledArrowContainer = styled.div`
 
 export const StyledImage = styled.img`
   width: 100%;
-  height:100%; 
+  height:100%;  
 `;
