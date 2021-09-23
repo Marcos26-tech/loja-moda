@@ -23,10 +23,11 @@ export const StyledContainer = styled.section`
   justify-content:space-evenly;
   margin: 0;
   margin-bottom:10px;
-  @media(max-width:768px){
+  @media(max-width:780px){
     display:block;
-    align-items:center;
     width:100%;
+    margin:0;
+    padding:0;
   };
 `;
 
@@ -38,22 +39,16 @@ export const StyledCarrocelContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items:center;
-  @media(max-width:768px){
-    display:flexbox;
-    width:92%;
-    padding:10px;
-    margin:10px;
+  @media(max-width:780px){
+    width:100%;
+    padding: 0px;
+    margin:0;
   };
 `;
 
 export const StyledImageContainer = styled.div`
   width: 100%;
   height: 100%;  
-  @media(max-width:768px){
-    display:block;
-    align-items:center;
-    width:100%;
-  };
 `;
 
 export const StyledArrowContainer = styled.div`
@@ -66,7 +61,7 @@ export const StyledArrowContainer = styled.div`
   border-radius:50%;
   cursor: pointer;
   &:hover{
-    background-color:#d9d9d9;
+    color: rgb(74, 85, 85); 
   }
 `;
 
@@ -79,6 +74,14 @@ export const StyledTitulo = styled.h1`
   text-align: center;
   font-size: 18px;
   margin-top:2rem;
+  @media(max-width:780px){
+    display:flex;
+    font-size:25px;
+    text-align: center;
+    width:100%;
+    padding: 0px;
+    margin:0px;
+  };
 `;
 
 

@@ -12,6 +12,9 @@ const StyledHeader = styled.header`
       height: 100px;
       width: 100px;
       padding: 10px;
+      @media(max-width:780px){
+      align-items:center;
+      padding-left:19%;}
    } 
 `;
 
@@ -19,10 +22,14 @@ const Stylednovo = styled.div`
    display: flex;
    justify-content:center;
    p {
-   margin:0;
-   padding-top:2rem;
-   font-size:30px;
-   font-weight:bold;
+      margin:0;
+      padding-top:2rem;
+      font-size:30px;
+      font-weight:bold;
+         @media(max-width:780px){
+         width:100%;
+         font-size:25px;   
+      } 
    }
 `;
 

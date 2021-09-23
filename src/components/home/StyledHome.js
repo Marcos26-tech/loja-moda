@@ -38,7 +38,7 @@ export const StyledCarrocelContainer = styled.div`
     display:flex;
     width:100%;
     margin:auto;
-    padding: 5px !important;
+    padding: 5px;
     }
 `;
 

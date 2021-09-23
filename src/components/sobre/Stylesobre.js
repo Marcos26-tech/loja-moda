@@ -4,7 +4,10 @@ export const StyleContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     width: 100%;
-
+    @media(max-width:780px){
+        width:100%;
+        padding: 0px;
+    };
 `;
 
 export const Box = styled.div`
@@ -15,11 +18,12 @@ export const Box = styled.div`
     border-radius: 25px;
     padding: 2%;
 
-    @media(max-width:768px){
+    @media(max-width:780px){
         display:block;
         width:100%;
-        padding:1rem;
-        margin:1rem;
+        padding:0;
+        border:none;
+        margin:0;    
     };
 
     div {
@@ -31,18 +35,15 @@ export const Box = styled.div`
         background: linear-gradient(15deg, rgb(4, 133, 25), transparent);
         margin:3px;
         font-size: 15px;
-
-        @media(max-width:768px){
-            display:block;
-            align-items:center;
-            width:80%;
-            padding:2rem;
-            margin:2rem;
+        @media(max-width:780px){
+            width:85%;
+            padding:5px;
+            margin-left:35px
         };
     };
     img {
         border-radius: 15%;
-        width: 95%;
+        width: 100%;
     };
     h2 {
         color: #fff;

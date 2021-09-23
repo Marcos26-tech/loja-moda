@@ -8,12 +8,12 @@ export const Nav = styled.nav`
         display:block;
         width:100%;
         text-align:center;
-        }
+    }
     ul {
         margin:5px 0;
         text-align: center;
-        background:linear-gradient(90deg, transparent -20%, rgb(188, 226, 186) , rgb(138, 226, 133)49%, rgb(188, 226, 186) 86%,transparent 120% );
-        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background:linear-gradient(95deg, transparent -8%, rgb(152, 243, 147) , rgb(70, 170, 65)49%, rgb(152, 243, 147) 119%,transparent 120% );
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(228, 225, 225, 0.6);
     };
     
     li {
@@ -36,9 +36,9 @@ export const Nav = styled.nav`
         &:hover { 
         box-shadow: 0 0 10px rgb(23 39 15), inset 0 0 1px rgb(255 255 255 / 60%);
         background: rgba(160, 243, 160, 0.733);
-        color: rgba(3, 51, 7, 0.938);
+        color: rgba(10, 138, 21, 0.938);
         }
-        @media(max-width:776px){
+        @media(max-width:780px){
         display:block;
         width:100%;
         }
