@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     width: 85%;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-    margin: 0;
+    margin: 0 auto;
     ul {
         margin:5px 0;
         text-align: center;
