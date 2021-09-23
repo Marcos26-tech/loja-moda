@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Carrossel from './Carrossel';
 
-import {Title, StyledContainer, Section} from './Stylehome';
+import {Title, StyledContainer, Section} from './StyledHome';
 
 class Home extends Component {
   render() {

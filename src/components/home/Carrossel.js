@@ -15,7 +15,7 @@ import carrocel12 from '../../img/imghome/carrocel12.jpg';
 import carrocel13 from '../../img/imghome/carrocel13.jpg';
 import carrocel14 from '../../img/imghome/carrocel14.jpg';
 
-import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './Stylehome';
+import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledHome';
 
 
 

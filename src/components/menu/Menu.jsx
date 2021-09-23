@@ -5,7 +5,7 @@ import ModaMasculina from '../modamasculina/ModaMasculina';
 import ModaFeminina from '../modafeminina/ModaFeminina';
 import ModaInfantil from '../modainfantil/ModaInfantil';
 
-import {Nav} from './Stylemenu';
+import {Nav} from './StyleMenu';
 
 const Menu = () => {
 
