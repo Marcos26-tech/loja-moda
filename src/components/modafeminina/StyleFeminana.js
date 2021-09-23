@@ -80,3 +80,40 @@ export const StyledTitulo = styled.h1`
   font-size: 18px;
   margin-top:2rem;
 `;
+
+
+//inicio do style do icone das pag//
+export const Span= styled.span`
+    .tw-heart {
+    background: url(http://i.imgur.com/zw8ahUb.png) no-repeat 0 0;
+    left: 100px;
+    top: 100px;}
+    margin:0;
+    padding-left:8rem;
+    position: relative;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+
+  [type="checkbox"]:checked + .tw-heart {
+    transition: background .8s steps(28);
+    background-position: -2800px 0;
+    animation:ease;
+  }
+
+  [type="checkbox"] {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+`;
+export const IconeLike = styled.span`
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+`;
