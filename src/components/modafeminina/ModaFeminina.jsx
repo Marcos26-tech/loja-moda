@@ -16,7 +16,7 @@ class ModaFeminina extends Component {
   render() {
       return(
         <>
-          <StyledTitulo>"As roupas não vão mudar o mundo; as mulheres que as vestem vão"</StyledTitulo>
+          <StyledTitulo>"As roupas não vão mudar o mundo, as mulheres que as vestem vão"</StyledTitulo>
           <StyledContainer>
               <Section>
                 <CarrosselFeminina />
@@ -26,7 +26,7 @@ class ModaFeminina extends Component {
                   </Span>
                   <Title>Chapéu Cores Cinza, Vermelho e Preto </Title>
                   <Title>Tamanho Unico</Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -35,9 +35,9 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Vestido Verão Estampados</Title>
+                  <Title>Vestido Verão Estampados</Title>
                   <Title>Tamanhos disponíveis P, M, G </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
               <Section>
@@ -46,9 +46,9 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Vestido Liso Cores Azul, Preto e Branco</Title>
+                  <Title>Vestido Liso Cores Azul, Preto e Branco</Title>
                   <Title>Tamanhos disponíveis M, G</Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
 
@@ -61,7 +61,7 @@ class ModaFeminina extends Component {
                   </Span>
                   <Title>Cropped manga longa Estampados</Title>
                   <Title>Tamanho disponível P </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -70,7 +70,7 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Calça Confort</Title>
+                  <Title>Calça Confort</Title>
                   <Title>Tamanhos disponíveis 38, 40</Title>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
@@ -83,7 +83,7 @@ class ModaFeminina extends Component {
                   </Span>
                   <Title>Vestido Verão </Title>
                   <Title>Tamanhos disponíveis P, M, G </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
 
@@ -94,9 +94,9 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> BIquinis  </Title>
+                  <Title>Biquínis</Title>
                   <Title>Tamanhos disponíveis  P, M </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -105,9 +105,9 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Vestido Longo Estampado</Title>
+                  <Title>Vestido Longo Estampado</Title>
                   <Title>Tamanhos disponíveis P, M </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
               <Section>
@@ -118,7 +118,7 @@ class ModaFeminina extends Component {
                   </Span>
                   <Title>Vestido Liso</Title>
                   <Title>Tamanho disponíveis P </Title>
-                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                   <Title>Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
         </>

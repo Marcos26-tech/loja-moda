@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, {useState} from 'react';
 import Sobre from '../sobre/Sobre';
 import Home from '../home/Home'
 import ModaMasculina from '../modamasculina/ModaMasculina';
