@@ -8,8 +8,8 @@ class Home extends Component {
       return(
         <>
           <Section>
-            <Title>Sejam Bemvidos a Loja Moda Panace I.A</Title>
-            <Title>“As pessoas mais jovens costumam abusar da criatividade e,
+            <Title>Sejam Bem vindos a Loja Moda Panace I.A</Title>
+            <Title>“Existem pessoas que costumam abusar da criatividade e,
                se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</Title>
           </Section>
           <StyledContainer>

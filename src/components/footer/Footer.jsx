@@ -10,6 +10,11 @@ const StyledFooter= styled.footer`
    font-size: 15px;
    color: rgb(0, 0, 0);
    }
+   @media(max-width:780px){
+      width:100%;
+      margin-top:55px;
+      text-align: center;
+   }
 `;
 
 const Footer = () => {

@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 //inicio style da pagina Feminina//
 export const Section = styled.section`
-  margin: 20px;
-  padding: 1px; 
-  
+  margin:5px;
+  padding: 25px; 
 `;
 export const Title = styled.h1 ` 
   margin: 2px;
@@ -20,7 +19,7 @@ export const Title = styled.h1 `
 
 export const StyledContainer = styled.section`
   display: flex;
-  padding: 10px;
+  padding: 5px;
   justify-content:space-evenly;
   margin: 0;
   margin-bottom:10px;
@@ -74,4 +73,10 @@ export const StyledArrowContainer = styled.div`
 export const StyledImage = styled.img`
   width: 100%;
   height:100%;  
+`;
+
+export const StyledTitulo = styled.h1`
+  text-align: center;
+  font-size: 18px;
+  margin-top:2rem;
 `;

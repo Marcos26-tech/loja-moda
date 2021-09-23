@@ -4,6 +4,11 @@ export const Nav = styled.nav`
     width: 85%;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
+    @media(max-width:780px){
+        display:block;
+        width:100%;
+        text-align:center;
+        }
     ul {
         margin:5px 0;
         text-align: center;
@@ -13,9 +18,10 @@ export const Nav = styled.nav`
     
     li {
         display: inline-block;
-        @media(max-width:776px){
+        @media(max-width:780px){
         display:flex;
         width:100%;
+        margin:0px;
         }
     };
     a {
@@ -33,7 +39,7 @@ export const Nav = styled.nav`
         color: rgba(3, 51, 7, 0.938);
         }
         @media(max-width:776px){
-        display:flex;
+        display:block;
         width:100%;
         }
     }
