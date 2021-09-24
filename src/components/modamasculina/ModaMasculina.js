@@ -18,7 +18,7 @@ import { StyledSection, Header, StyledSpam, StyledImage, StyledNovo } from './St
 
 export function ModaMasculina() {
 
-
+  /* Marcos Ferreira - Verificar uso dessas arrays*/
   const listaCamiseta = [Camiseta1, Camiseta3, Camiseta4]
   const listaTipo = ["Polo", "Bone", "Casaco"]
 

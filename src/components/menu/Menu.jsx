@@ -1,15 +1,15 @@
-import React, { useState, Component} from 'react';
+import React, { useState, Component } from 'react';
 import Sobre from '../sobre/Sobre';
 import Home from '../home/Home'
 import ModaMasculina from '../modamasculina/ModaMasculina';
 import ModaFeminina from '../modafeminina/ModaFeminina';
 import ModaInfantil from '../modainfantil/ModaInfantil';
 
-import {Nav} from './Stylemenu';
+import { Nav } from './Stylemenu';
 
 function Menu() {
 
-    const [componente, setComponente] = useState(<Home/>)
+    const [componente, setComponente] = useState(<Home />)
 
     return (
         <>

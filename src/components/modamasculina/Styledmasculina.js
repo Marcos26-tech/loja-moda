@@ -9,7 +9,7 @@ export const StyledImage = styled.div`
 `;
 
 export const StyledNovo = styled.div`
-    img { 
+img { 
     display:flex;
     width: 100%;
     height: 100%;  

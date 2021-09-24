@@ -6,7 +6,7 @@ import Header from './components/header/Header';
 export default () => {
     return (
         <>
-            <Header/>
+            <Header />
             <Footer />
         </>
     );
