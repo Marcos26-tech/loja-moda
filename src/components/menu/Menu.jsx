@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import React, { useState, Component } from 'react';
-=======
 import React, {useState} from 'react';
->>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714
 import Sobre from '../sobre/Sobre';
 import Home from '../home/Home'
 import ModaMasculina from '../modamasculina/ModaMasculina';
 import ModaFeminina from '../modafeminina/ModaFeminina';
 import ModaInfantil from '../modainfantil/ModaInfantil';
 
-<<<<<<< HEAD
-import { Nav } from './Stylemenu';
-=======
 import {Nav} from './StyleMenu';
->>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714
 
 const Menu = () => {
 
