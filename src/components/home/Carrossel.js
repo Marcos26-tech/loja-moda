@@ -15,32 +15,18 @@ import carrocel12 from '../../img/imghome/carrocel12.jpg';
 import carrocel13 from '../../img/imghome/carrocel13.jpg';
 import carrocel14 from '../../img/imghome/carrocel14.jpg';
 
-<<<<<<< HEAD:src/components/home/Carrocel.js
-import { StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './Stylehome';
-=======
 import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, StyledImage } from './StyledHome';
->>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714:src/components/home/Carrossel.js
 
 
 
 const imagens = [carrocel13, carrocel, carrocel14, carrocel2, carrocel3, carrocel4,
   carrocel5, carrocel6, carrocel8, carrocel9, carrocel10, carrocel11, carrocel12];
 
-<<<<<<< HEAD:src/components/home/Carrocel.js
-const Carrocel = () => {
-  
-  
-  const [mudarImageIndex, setMudarImageIndex] = useState(0);
-  
-  const nextImage = () => {
-    setMudarImageIndex(primeiroIndex => primeiroIndex + 1);
-=======
 const Carrossel = () => {
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
 
   const nextImage = () =>{
       setMudarImageIndex(primeiroIndex => primeiroIndex + 1);
->>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714:src/components/home/Carrossel.js
   };
 
   const preImage = () => {
