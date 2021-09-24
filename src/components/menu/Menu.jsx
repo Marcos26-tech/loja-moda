@@ -4,8 +4,6 @@ import {Nav} from './StyleMenu';
 
 const Menu = () => {
 
-    const [componente, setComponente] = useState(<Home />)
-
     return (
         <>
             <Nav>
