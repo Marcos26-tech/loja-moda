@@ -12,6 +12,9 @@ const StyledHeader = styled.header`
       height: 100px;
       width: 100px;
       padding: 10px;
+      @media(max-width:780px){
+      align-items:center;
+      padding-left:19%;}
    } 
 `;
 
@@ -23,13 +26,21 @@ const Stylednovo = styled.div`
       padding-top:2rem;
       font-size:30px;
       font-weight:bold;
+<<<<<<< HEAD
+=======
+         @media(max-width:780px){
+         width:100%;
+         font-size:25px;   
+      } 
+>>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714
    }
 `;
 
-export default () => {
+ const Header = () => {
 
    return (
       <> 
+<<<<<<< HEAD
          <section> 
             <StyledHeader>
                <Stylednovo>
@@ -42,3 +53,17 @@ export default () => {
       </>
    );
 }
+=======
+         <StyledHeader>
+            <Stylednovo>
+               <img src={Logo} alt="logo do site"></img>
+               <p> Loja de Moda Panace IA</p>
+            </Stylednovo>
+         </StyledHeader>
+
+         <Menu/>
+      </>
+   )
+}
+export default Header;
+>>>>>>> f2a286c9d47bbbd09d72e629beffc3e19dd75714
