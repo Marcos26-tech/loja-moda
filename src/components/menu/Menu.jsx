@@ -1,32 +1,23 @@
-import React, {useState} from 'react';
-import Sobre from '../sobre/Sobre';
-import Home from '../home/Home'
-import ModaMasculina from '../modamasculina/ModaMasculina';
-import ModaFeminina from '../modafeminina/ModaFeminina';
-import ModaInfantil from '../modainfantil/ModaInfantil';
-
+import React from 'react';
+import { Link } from 'react-router-dom'
 import {Nav} from './StyleMenu';
 
 const Menu = () => {
-
-    const [componente, setComponente] = useState(<Home/>)
 
     return (
         <>
             <header>
                 <Nav>
                     <ul>
-                        <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
-                        <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</a></li>
-                        <li><a href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</a></li>
-                        <li><a href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</a></li>
-                        <li><a href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</a></li>
+                        <li><Link to='/'></Link></li>
+                        <li><Link to='/Home'>Home</Link></li>
+                        <li><Link to='/ModaMasculina'>Moda Maculina</Link></li>
+                        <li><Link to='/ModaFeminina'>Moda Feminina</Link></li>
+                        <li><Link to='/ModaInfantil'>Moda Infantil</Link></li>
+                        <li><Link to='/Sobre'>Sobre</Link></li>
                     </ul>
                 </Nav>
             </header>
-            <section>
-                {componente}
-            </section>
         </>
     )
 }

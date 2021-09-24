@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom'
 import Logo from '../../img/grupo/logo.png'
 import Menu from '../menu/Menu'
+import Sobre from '../sobre/Sobre';
+import Home from '../home/Home'
+import ModaMasculina from '../modamasculina/ModaMasculina';
+import ModaFeminina from '../modafeminina/ModaFeminina';
+import ModaInfantil from '../modainfantil/ModaInfantil';
 import styled from 'styled-components';
 
 
@@ -33,19 +39,29 @@ const Stylednovo = styled.div`
    }
 `;
 
- const Header = () => {
+class Header extends Component {
+   render() {
+      return (
+         <> 
+            <StyledHeader>
+               <Stylednovo>
+                  <img src={Logo} alt="logo do site"></img>
+                  <p> Loja de Moda Panace IA</p>
+               </Stylednovo> 
+               <Menu/>  
+            </StyledHeader>
+            
 
-   return (
-      <> 
-         <StyledHeader>
-            <Stylednovo>
-               <img src={Logo} alt="logo do site"></img>
-               <p> Loja de Moda Panace IA</p>
-            </Stylednovo>
-         </StyledHeader>
-
-         <Menu/>
-      </>
-   )
+            <Switch>
+               <Route exact path='/'component={Home} />
+               <Route path='/home' component={Home} />
+               <Route path='/modaMasculina' component={ModaMasculina} />
+               <Route path='/modaFeminina' component={ModaFeminina} />
+               <Route path='/modaInfantil' component={ModaInfantil} />
+               <Route path='/sobre' component={Sobre} />
+            </Switch>
+         </>
+      )
+   }
 }
 export default Header;
