@@ -1,9 +1,11 @@
 import React from 'react';
+import jojo from '../../img/grupo/jonathan.jpg';
 import marcos from '../../img/grupo/MarcosMaciel.jpg';
 import marcao from '../../img/grupo/MarcosVinicius.jpg';
 import akemi from '../../img/grupo/Akemi.jpg';
+import luan from '../../img/grupo/Luan.jpg';
 
-import { StyleContainer, Box, Paragrafo } from './Stylesobre'
+import { StyleContainer, Box, Paragrafo } from './StyleSobre'
 
 const Sobre = () => {
 
@@ -14,6 +16,12 @@ const Sobre = () => {
                     <Paragrafo>Somos um grupo de estudantes universitários do curso de Análise e Desenvolvimento de Sistemas denominado Panace I.A </Paragrafo>
                 </div>
                 <Box>
+                    <div>
+                        <img src={jojo} alt="Laun de Oliveira"></img>
+                        <h2>Luan de Oliveira</h2>
+                        <h3>Rm89352</h3>
+                        <p>Banco de Dados</p>
+                    </div>
                     <div>
                         <img src={luan} alt="Laun de Oliveira"></img>
                         <h2>Luan de Oliveira</h2>
