@@ -2,24 +2,32 @@ import styled from "styled-components";
 
 //inicio style da pagina home//
 export const Section = styled.section`
-  margin:1rem;
-  padding: 2rem;
+  margin:2rem;
+  padding:5rem;
   text-align:center;
   justify-content: center;
+  h3 {
+    font-weight: bold;
+    color: rgb(12, 139, 1); 
+    text-align:center;
+    margin:2px;
+  }
 `;
-export const Title = styled.h1 ` 
-  margin: 2px;
-  padding: 1px;
-  font-size: 30px;
+export const Title = styled.h3 `
+  margin:1rem;
+  padding:10px;
   font-weight: bold;
   color: rgb(12, 139, 1); 
   display: flex;
   text-align:center;
   justify-content: center;
+  @media(max-width:780px){
+    width:100%;
+    padding-top:13rem;
+  }
 `;
 
 export const StyledContainer = styled.section`
-  position: relative;
   display: flex;
 `;
 
@@ -39,7 +47,7 @@ export const StyledCarrocelContainer = styled.div`
     width:100%;
     margin:auto;
     padding: 5px;
-    }
+  }
 `;
 
 export const StyledImageContainer = styled.div`

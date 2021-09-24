@@ -126,4 +126,4 @@ class ModaInfantil extends Component {
       );
   }
 }
-export default ModaInfantil ;
+export default ModaInfantil;

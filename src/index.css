@@ -1,5 +1,4 @@
 /* NORMALIZAÇÃO */
-
 body{
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ body{
 main {
   display: block;
 }
-
 
 h1 {
   font-size: 2em;

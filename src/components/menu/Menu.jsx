@@ -1,10 +1,5 @@
-import React, {useState} from 'react';
-import Sobre from '../sobre/Sobre';
-import Home from '../home/Home'
-import ModaMasculina from '../modamasculina/ModaMasculina';
-import ModaFeminina from '../modafeminina/ModaFeminina';
-import ModaInfantil from '../modainfantil/ModaInfantil';
-
+import React from 'react';
+import { Link } from 'react-router-dom'
 import {Nav} from './StyleMenu';
 
 const Menu = () => {
@@ -13,20 +8,15 @@ const Menu = () => {
 
     return (
         <>
-            <header>
-                <Nav>
-                    <ul>
-                        <li><a href="#home" onClick={() => setComponente(<Home />)}>Home</a></li>
-                        <li><a href="#modamasculina" onClick={() => setComponente(<ModaMasculina />)}>Moda Masculina</a></li>
-                        <li><a href="#modafeminina" onClick={() => setComponente(<ModaFeminina />)}>Moda Feminina</a></li>
-                        <li><a href="#modainfantil" onClick={() => setComponente(<ModaInfantil />)}>Moda Infantil</a></li>
-                        <li><a href="#Sobre" onClick={() => setComponente(<Sobre />)}>Sobre</a></li>
-                    </ul>
-                </Nav>
-            </header>
-            <section>
-                {componente}
-            </section>
+            <Nav>
+                <ul>
+                    <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/modaMasculina'>Moda Masculina</Link></li>
+                    <li><Link to='/modaFeminina'>Moda Feminina</Link></li>
+                    <li><Link to='/modaInfantil'>Moda Infantil</Link></li>
+                    <li><Link to='/sobre'>Sobre</Link></li>
+                </ul>
+            </Nav>   
         </>
     )
 }

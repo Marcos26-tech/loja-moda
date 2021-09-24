@@ -9,8 +9,8 @@ class Home extends Component {
         <>
           <Section>
             <Title>Sejam Bem vindos a Loja Moda Panace I.A</Title>
-            <Title>“Existem pessoas que costumam abusar da criatividade e,
-               se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</Title>
+            <h3>“Existem pessoas que costumam abusar da criatividade e,
+               se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</h3>
           </Section>
           <StyledContainer>
               <Carrossel />
