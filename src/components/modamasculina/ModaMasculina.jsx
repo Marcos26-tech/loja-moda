@@ -24,7 +24,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Camisetas Polo cores Branca, Verde e Amarela</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title>Tamanhos disponivéis P, M, G, GG</Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -59,7 +59,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title> Camiseta lisa nas cores Azul, Azul escuro e Roxa</Title>
-                  <Title>Tamanho M, G, GG</Title>
+                  <Title>Tamanhos disponíveis M, G, GG</Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -70,7 +70,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title> Camiseta manga longa cores Cinza, Vinho e Preta</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title>Tamanhos disponíveis  P, M, G, GG</Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
@@ -81,7 +81,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title> Jaquetas cores Rosa, Marron e Militar</Title>
-                  <Title>Tamanho P, M </Title>
+                  <Title>Tamanhos disponíveis P, M </Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
@@ -94,7 +94,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Blusa Moletom</Title>
-                  <Title>Tamanho P, M, G, GG</Title>
+                  <Title>Tamanhos disponíveis P, M, G, GG</Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -116,7 +116,7 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Calça Jeans</Title>
-                  <Title>Tamanho 36, 38, 40, 42</Title>
+                  <Title>Tamanhos disponíveis 36, 38, 40, 42</Title>
                   <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>

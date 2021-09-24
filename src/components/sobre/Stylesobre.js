@@ -45,15 +45,14 @@ export const Box = styled.div`
         border-radius: 15%;
         width: 100%;
     };
-    h2 {
+    h2, h3 {
         color: #fff;
-    };
-    h3 {
-        color: #fff;
+        text-align: center;
     };
     p {
         color: #fff;
         font-size: 20px;
+        text-align: center;
     };
 `;
 
