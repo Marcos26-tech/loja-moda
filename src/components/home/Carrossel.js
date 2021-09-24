@@ -51,5 +51,4 @@ const Carrossel = () => {
     </StyledCarrocelContainer>
   );
 }
-
 export default Carrossel;

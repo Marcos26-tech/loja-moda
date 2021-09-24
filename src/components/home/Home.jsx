@@ -13,7 +13,7 @@ class Home extends Component {
                se você for desse tipo, use-a com sabedoria. Seja estiloso e crie a sua moda!”</h3>
           </Section>
           <StyledContainer>
-              <Carrossel />
+            <Carrossel />
           </StyledContainer>
         </>
       );

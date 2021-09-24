@@ -1,9 +1,7 @@
 import React from 'react';
-import jojo from '../../img/grupo/jonathan.jpg';
 import marcos from '../../img/grupo/MarcosMaciel.jpg';
 import marcao from '../../img/grupo/MarcosVinicius.jpg';
 import akemi from '../../img/grupo/Akemi.jpg';
-import luan from '../../img/grupo/Luan.jpg';
 
 import { StyleContainer, Box, Paragrafo } from './Stylesobre'
 

@@ -124,5 +124,4 @@ class ModaMasculina extends Component {
     );
   }
 }
-
 export default ModaMasculina ;
