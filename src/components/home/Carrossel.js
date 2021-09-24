@@ -6,7 +6,6 @@ import carrocel2 from '../../img/imghome/carrocel2.jpg';
 import carrocel3 from '../../img/imghome/carrocel3.jpg';
 import carrocel4 from '../../img/imghome/carrocel4.jpg';
 import carrocel5 from '../../img/imghome/carrocel5.jpg';
-import carrocel6 from '../../img/imghome/carrocel6.jpg';
 import carrocel8 from '../../img/imghome/carrocel8.jpg';
 import carrocel9 from '../../img/imghome/carrocel9.jpg';
 import carrocel10 from '../../img/imghome/carrocel10.jpg';
@@ -20,7 +19,7 @@ import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, Sty
 
 
 const imagens = [carrocel13, carrocel, carrocel14, carrocel2, carrocel3, carrocel4,
-  carrocel5, carrocel6, carrocel8, carrocel9, carrocel10, carrocel11, carrocel12];
+  carrocel5, carrocel8, carrocel9, carrocel10, carrocel11, carrocel12];
 
 const Carrossel = () => {
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
