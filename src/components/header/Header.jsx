@@ -19,10 +19,10 @@ const Stylednovo = styled.div`
    display: flex;
    justify-content:center;
    p {
-   margin:0;
-   padding-top:2rem;
-   font-size:30px;
-   font-weight:bold;
+      margin:0;
+      padding-top:2rem;
+      font-size:30px;
+      font-weight:bold;
    }
 `;
 
@@ -38,8 +38,7 @@ export default () => {
                </Stylednovo>
             </StyledHeader>
             <Menu/>
-            
          </section>  
       </>
-   )
+   );
 }
