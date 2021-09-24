@@ -1,3 +1,5 @@
+
+1TDSJ - Grupo: Panace I.A.
 # Construção de um site para uma loja de moda usando REACT.JS e usando styled components
 
 ## Para incializar a aplicação use os comando abaixo:
@@ -16,5 +18,4 @@
 #### Todos os componentes devem utilizar styled-components para estilização.
 
 #### Para a entrega, deverá ser excluída a pasta node modules do projeto e compactado, de preferência com o nome do grupo.
-
 

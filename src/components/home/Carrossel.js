@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {MdKeyboardArrowRight, MdKeyboardArrowLeft} from 'react-icons/md';
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from 'react-icons/md';
 
 import carrocel from '../../img/imghome/carrocel.jpg';
 import carrocel2 from '../../img/imghome/carrocel2.jpg';
@@ -19,9 +19,8 @@ import {StyledCarrocelContainer, StyledImageContainer, StyledArrowContainer, Sty
 
 
 
-const imagens =[carrocel13,carrocel,carrocel14,carrocel2,carrocel3,carrocel4,
-  carrocel5,carrocel6,carrocel8,carrocel9,carrocel10,carrocel11,carrocel12,
-];
+const imagens = [carrocel13, carrocel, carrocel14, carrocel2, carrocel3, carrocel4,
+  carrocel5, carrocel6, carrocel8, carrocel9, carrocel10, carrocel11, carrocel12];
 
 const Carrossel = () => {
   const [mudarImageIndex, setMudarImageIndex]= useState(0);
@@ -30,25 +29,25 @@ const Carrossel = () => {
       setMudarImageIndex(primeiroIndex => primeiroIndex + 1);
   };
 
-  const preImage = ()=>{
+  const preImage = () => {
     setMudarImageIndex(primeiroIndex => primeiroIndex - 1);
   };
 
-  return(
+  return (
     <StyledCarrocelContainer>
       {mudarImageIndex !== 0 && (
-         <StyledArrowContainer onClick={preImage}>
-        <MdKeyboardArrowLeft />
-      </StyledArrowContainer>
+        <StyledArrowContainer onClick={preImage}>
+          <MdKeyboardArrowLeft />
+        </StyledArrowContainer>
       )}
       <StyledImageContainer>
-        <StyledImage src={imagens[mudarImageIndex]}/>
+        <StyledImage src={imagens[mudarImageIndex]} />
       </StyledImageContainer>
-      {mudarImageIndex !== imagens.length -1 && ( 
-      <StyledArrowContainer onClick={nextImage}>
-        <MdKeyboardArrowRight />
-      </StyledArrowContainer>
-      )} 
+      {mudarImageIndex !== imagens.length - 1 && (
+        <StyledArrowContainer onClick={nextImage}>
+          <MdKeyboardArrowRight />
+        </StyledArrowContainer>
+      )}
     </StyledCarrocelContainer>
   );
 }

@@ -19,7 +19,7 @@ const StyledFooter= styled.footer`
 
 const Footer = () => {
 
-   return(
+   return (
       <>
          <StyledFooter>
             <p> Copyright &copy; Grupo Panace I.A 2021 </p>
