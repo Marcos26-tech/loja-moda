@@ -51,15 +51,16 @@ class Header extends Component {
               <Menu/>
             </StyledHeader>
              
-         
+         <main>
             <Switch>
-               <Route exact path='/'component={Home} />
+               <Route exact path="/"component={Home} />
                <Route path='/home' component={Home} />
                <Route path='/modaMasculina' component={ModaMasculina} />
                <Route path='/modaFeminina' component={ModaFeminina} />
                <Route path='/modaInfantil' component={ModaInfantil} />
                <Route path='/sobre' component={Sobre} />
             </Switch>
+         </main>
          </>
       )
    }

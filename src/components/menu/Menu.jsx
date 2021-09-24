@@ -8,11 +8,11 @@ const Menu = () => {
         <>
             <Nav>
                 <ul>
-                    <li><Link to='/Home'>Home</Link></li>
-                    <li><Link to='/ModaMasculina'>Moda Maculina</Link></li>
-                    <li><Link to='/ModaFeminina'>Moda Feminina</Link></li>
-                    <li><Link to='/ModaInfantil'>Moda Infantil</Link></li>
-                    <li><Link to='/Sobre'>Sobre</Link></li>
+                    <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/modaMasculina'>Moda Masculina</Link></li>
+                    <li><Link to='/modaFeminina'>Moda Feminina</Link></li>
+                    <li><Link to='/modaInfantil'>Moda Infantil</Link></li>
+                    <li><Link to='/sobre'>Sobre</Link></li>
                 </ul>
             </Nav>   
         </>
