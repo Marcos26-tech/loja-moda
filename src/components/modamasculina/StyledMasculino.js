@@ -14,8 +14,23 @@ export const Title = styled.h1 `
   display: flex;
   text-align:center;
   justify-content: center;
-  
+  a{
+    color: rgb(145, 6, 29);
+    margin-left:5px;
+    text-decoration: none;
+ }
 `;
+
+export const Titles = styled.h1`
+  color: rgb(145, 6, 29);
+  margin: 2px;
+  padding: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  text-align:center;
+  justify-content: center;
+`; 
 
 export const StyledContainer = styled.section`
   display: flex;

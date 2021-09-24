@@ -10,7 +10,7 @@ import CarrosselMasculino6 from './CarrosselMasculino6';
 import CarrosselMasculino7 from './CarrosselMasculino7';
 import CarrosselMasculino8 from './CarrosselMasculino8';
 
-import {Title, StyledContainer, Section, StyledTitulo, Span, IconeLike} from './StyledMasculino';
+import {Title, Titles, StyledContainer, Section, StyledTitulo, Span, IconeLike} from './StyledMasculino';
 class ModaMasculina extends Component {
   render() {
       return(
@@ -24,8 +24,8 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Camisetas Polo cores Branca, Verde e Amarela</Title>
-                  <Title>Tamanhos disponivéis P, M, G, GG</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Titles>Tamanhos disponivéis P, M, G, GG</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -35,8 +35,8 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Sungas lisa</Title>
-                  <Title>Tamanhos disponivéis P, M, G</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Titles>Tamanhos disponivéis P, M, G</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
               <Section>
@@ -45,9 +45,9 @@ class ModaMasculina extends Component {
                   <input type="checkbox" name="name" value=""></input>
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Camisetas Estampadas</Title>
-                  <Title>Tamanhos disponivéis P, M </Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Title>Camisetas Estampadas</Title>
+                  <Titles>Tamanhos disponivéis P, M </Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
 
@@ -58,9 +58,9 @@ class ModaMasculina extends Component {
                   <input type="checkbox" name="name" value=""></input>
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Camiseta lisa nas cores Azul, Azul escuro e Roxa</Title>
-                  <Title>Tamanhos disponíveis M, G, GG</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Title>Camiseta lisa nas cores Azul, Azul escuro e Roxa</Title>
+                  <Titles>Tamanhos disponíveis M, G, GG</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -69,9 +69,9 @@ class ModaMasculina extends Component {
                   <input type="checkbox" name="name" value=""></input>
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Camiseta manga longa cores Cinza, Vinho e Preta</Title>
-                  <Title>Tamanhos disponíveis  P, M, G, GG</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Title>Camiseta manga longa cores Cinza, Vinho e Preta</Title>
+                  <Titles>Tamanhos disponíveis  P, M, G, GG</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
               <Section>
@@ -80,9 +80,9 @@ class ModaMasculina extends Component {
                   <input type="checkbox" name="name" value=""></input>
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Jaquetas cores Rosa, Marron e Militar</Title>
-                  <Title>Tamanhos disponíveis P, M </Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Title>Jaquetas cores Rosa, Marron e Militar</Title>
+                  <Titles>Tamanhos disponíveis P, M </Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
 
@@ -94,8 +94,8 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Blusa Moletom</Title>
-                  <Title>Tamanhos disponíveis P, M, G, GG</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Titles>Tamanhos disponíveis P, M, G, GG</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
               <Section>
@@ -104,9 +104,9 @@ class ModaMasculina extends Component {
                   <input type="checkbox" name="name" value=""></input>
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title> Bonés Cores Rosa, Vermelho e Branco</Title>
-                  <Title>Tamanhos Unicos</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Title>Bonés Cores Rosa, Vermelho e Branco</Title>
+                  <Titles>Tamanhos Unicos</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
               <Section>
@@ -116,8 +116,8 @@ class ModaMasculina extends Component {
                   <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Calça Jeans</Title>
-                  <Title>Tamanhos disponíveis 36, 38, 40, 42</Title>
-                  <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
+                  <Titles>Tamanhos disponíveis 36, 38, 40, 42</Titles>
+                  <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
 

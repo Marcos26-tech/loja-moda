@@ -11,7 +11,7 @@ import CarrosselInfantil7 from './CarrosselInfantil7';
 import CarrosselInfantil8 from './CarrosselInfantil8';
 
 
-import {Title, StyledContainer, Section, StyledTitulo, Span, IconeLike} from './StyleInfanil';
+import {Title, Titles, StyledContainer, Section, StyledTitulo, Span, IconeLike} from './StyleInfanil';
 
 
 class ModaInfantil extends Component {
@@ -27,7 +27,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Tocas Infantil Unisex </Title>
-                  <Title>Tamanho disponível P</Title>
+                  <Titles>Tamanho disponível P</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -38,7 +38,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Conjuntos Bebe </Title>
-                  <Title>Tamanho disponível 01</Title>
+                  <Titles>Tamanho disponível 01</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
@@ -49,7 +49,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Body Bebe Estampado</Title>
-                  <Title>Tamanho disponível 01</Title>
+                  <Titles>Tamanho disponível 01</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
@@ -61,7 +61,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Conjunto Feminino infantil</Title>
-                  <Title>Tamanhos disponíveis P, M, G</Title>
+                  <Titles>Tamanhos disponíveis P, M, G</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -72,7 +72,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Cardgan Feminino</Title>
-                  <Title>Tamanhos disponíveis 07 e 10</Title>
+                  <Titles>Tamanhos disponíveis 07 e 10</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
@@ -83,7 +83,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Conjunto Feminino infantil</Title>
-                  <Title>Tamanhos disponíveis 08, 10 e 12</Title>
+                  <Titles>Tamanhos disponíveis 08, 10 e 12</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
@@ -95,7 +95,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Conjunto Masculino Infantil</Title>
-                  <Title>Tamanhos disponíveis 10, 12 e 14</Title>
+                  <Titles>Tamanhos disponíveis 10, 12 e 14</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           
@@ -106,7 +106,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>   
                   <Title>Conjunto Masc cores Branco, Azul e Vermelho</Title>
-                  <Title>Tamanhos disponíveis P, M, G, GG</Title>
+                  <Titles>Tamanhos disponíveis P, M, G, GG</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
             
@@ -117,7 +117,7 @@ class ModaInfantil extends Component {
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
                   <Title>Conjunto Femin cores Branco, Rosa e Vermelho</Title>
-                  <Title>Tamanhos disponíveis P, M, G</Title>
+                  <Titles>Tamanhos disponíveis P, M, G</Titles>
                    <Title> Para Comprar ligue<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
           </StyledContainer>
