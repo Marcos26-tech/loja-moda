@@ -35,7 +35,7 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title>Vestido Verão Estampados</Title>
+                  <Title>Vestido Verão Estampado</Title>
                   <Titles>Tamanhos disponíveis P, M, G </Titles>
                    <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
@@ -94,7 +94,7 @@ class ModaFeminina extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title>Biquínis</Title>
+                  <Title>Biquíni</Title>
                   <Titles>Tamanhos disponíveis  P, M </Titles>
                    <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>

@@ -26,7 +26,7 @@ class ModaInfantil extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title>Tocas Infantil Unisex</Title>
+                  <Title>Toca Infantil Unisex</Title>
                   <Titles>Tamanho disponível P</Titles>
                    <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>
@@ -37,7 +37,7 @@ class ModaInfantil extends Component {
                     <input type="checkbox" name="name" value=""></input>
                     <IconeLike className="tw-heart"></IconeLike>
                   </Span>
-                  <Title>Conjuntos Bebe</Title>
+                  <Title>Conjunto Bebe</Title>
                   <Titles>Tamanho disponível 01</Titles>
                    <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
               </Section>

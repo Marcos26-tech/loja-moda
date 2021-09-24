@@ -23,7 +23,7 @@ class ModaMasculina extends Component {
                 <input type="checkbox" name="name" value=""></input>
                 <IconeLike className="tw-heart"></IconeLike>
               </Span>
-                <Title>Camisetas Polo cores Branca, Verde e Amarela</Title>
+                <Title>Camisa Polo cores Branca, Verde e Amarela</Title>
                 <Titles>Tamanhos disponivéis P, M, G, GG</Titles>
                 <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
             </Section>
@@ -45,7 +45,7 @@ class ModaMasculina extends Component {
                 <input type="checkbox" name="name" value=""></input>
                 <IconeLike className="tw-heart"></IconeLike>
               </Span>
-                <Title>Camisetas Estampadas</Title>
+                <Title>Camiseta Estampada</Title>
                 <Titles>Tamanhos disponivéis P, M </Titles>
                 <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
             </Section>
@@ -80,7 +80,7 @@ class ModaMasculina extends Component {
                 <input type="checkbox" name="name" value=""></input>
                 <IconeLike className="tw-heart"></IconeLike>
               </Span>
-                <Title>Jaquetas cores Rosa, Marron e Militar</Title>
+                <Title>Jaqueta cores Rosa, Marron e Militar</Title>
                 <Titles>Tamanhos disponíveis P, M </Titles>
                 <Title>Ligue e Compre<a href="tel:(11)985156126"><FiPhoneCall /> (11) 98515612</a></Title>
             </Section>
