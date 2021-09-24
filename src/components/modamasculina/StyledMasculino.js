@@ -105,13 +105,14 @@ export const Span= styled.span`
     .tw-heart {
     background: url(http://i.imgur.com/zw8ahUb.png) no-repeat 0 0;
     left: 100px;
-    top: 100px;}
-    margin:0;
-    padding-left:8rem;
+    top: 100px;
+  }
+
+    margin:0 auto;
     position: relative;
     width: 85px;
     height: 85px;
-    display: inline-block;
+    display: block;
 
   [type="checkbox"]:checked + .tw-heart {
     transition: background .90s steps(280);
