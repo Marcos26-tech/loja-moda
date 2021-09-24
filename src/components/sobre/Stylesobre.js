@@ -12,12 +12,11 @@ export const StyleContainer = styled.div`
 
 export const Box = styled.div`
     display: flex;
-    margin: 7rem;
+    margin: 5rem;
     color: rgb(12, 137, 1);
     border: 1px solid;
     border-radius: 25px;
-    padding: 2%;
-
+    padding: 1rem;
     @media(max-width:780px){
         display:block;
         width:100%;
@@ -58,10 +57,16 @@ export const Box = styled.div`
 
 export const Paragrafo = styled.p`
     padding: 10px;
+    margin-top:5rem;
     font-size: 30px;
     font-weight: bold;
     color: rgb(12, 139, 1);
     display: flex;
     text-align:center;
     justify-content: center; 
+    @media(max-width:780px){
+        width:100%;
+        padding:0;
+        margin-top:19rem;   
+    };
 `;

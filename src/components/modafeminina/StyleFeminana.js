@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-//inicio style da pagina Feminina//
+//inicio style da pagina ModaFeminina//
 export const Section = styled.section`
-  margin:5px;
-  padding: 25px; 
+  margin:15px;
+  padding:25px; 
 `;
 export const Title = styled.h1 ` 
   margin: 2px;
@@ -41,12 +41,12 @@ export const StyledContainer = styled.section`
   @media(max-width:780px){
     display:block;
     width:100%;
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
   };
 `;
 
-//inicio style da pagina carrocelfeminina//
+//inicio style da pagina carrocelFeminino//
 export const StyledCarrocelContainer = styled.div`
   height: 500px;
   width: 27vw;
@@ -56,7 +56,7 @@ export const StyledCarrocelContainer = styled.div`
   align-items:center;
   @media(max-width:780px){
     width:100%;
-    padding: 0px;
+    padding:0px;
     margin:0;
   };
 `;
@@ -88,14 +88,12 @@ export const StyledImage = styled.img`
 export const StyledTitulo = styled.h1`
   text-align: center;
   font-size: 18px;
-  margin-top:2rem;
+  margin-top:5rem;
   @media(max-width:780px){
-    display:flex;
-    font-size:30px;
-    text-align: center;
+    margin-top:19rem;
+    font-size:25px;
     width:100%;
-    padding: 0px;
-    margin:0px;
+    padding:0px;
   };
 `;
 

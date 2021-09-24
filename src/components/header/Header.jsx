@@ -48,10 +48,10 @@ class Header extends Component {
                   <img src={Logo} alt="logo do site"></img>
                   <p> Loja de Moda Panace IA</p>
                </Stylednovo> 
-               <Menu/>  
+              <Menu/>
             </StyledHeader>
-            
-
+             
+         
             <Switch>
                <Route exact path='/'component={Home} />
                <Route path='/home' component={Home} />
